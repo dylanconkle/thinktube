@@ -4,9 +4,9 @@ $(document).ready(function() {
         var userInput = $("#query").val();
         if (userInput == 0) {
             alert('Please type a search term!');
-        }else{
-        getResults(userInput);
-    };
+        } else {
+            getResults(userInput);
+        };
     });
 
     function getResults(userSearchTerm) {
