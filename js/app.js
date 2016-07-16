@@ -16,7 +16,7 @@ $(document).ready(function() {
             function(receivedApiData) {
                 console.log(receivedApiData);
                 if (receivedApiData.pageInfo.totalResults == 0) {
-                    alert("No videos found!");
+                    alert("Not found!");
                 } else {
                     displaySearchResults(receivedApiData.items);
                 }
